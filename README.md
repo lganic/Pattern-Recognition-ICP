@@ -1,0 +1,1 @@
+Studying reduction in pose recognition models for use in embedded systems. Current pose network architectures run incredibly poorly on small systems, so the point of this project was to explore how we can better tune our models to run on small hardware, withough sacrificing too much quality. 
