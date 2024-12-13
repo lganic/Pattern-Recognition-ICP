@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  5 14:41:57 2019
-This is an easy version to speed up the inference 
-* perform grouping on input image to net, while not original image 
-
-@author: AIRocker
-"""
 import cv2
 from .model import bodypose_model, PoseEstimationWithMobileNet
 from .utils.util import *
