@@ -25,7 +25,7 @@ LIMBS = {
 }
 
 from model_1 import detect_joints as model_1_predict
-from full_pose_recognition import stupid_pose as model_2_predict
+from model.full_pose_recognition import stupid_pose as model_2_predict
 
 MODELS = {
     "MediaPipe Pose": model_1_predict,
